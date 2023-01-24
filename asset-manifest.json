@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-antools/static/css/main.656481b0.css",
+    "main.css": "/react-antools/static/css/main.701e8399.css",
     "main.js": "/react-antools/static/js/main.fb129286.js",
     "static/media/man.png": "/react-antools/static/media/man.fff0e123be99ffe24d32.png",
     "static/media/bg.png": "/react-antools/static/media/bg.f5835a4acad749b456da.png",
@@ -25,11 +25,11 @@
     "static/media/like.svg": "/react-antools/static/media/like.05445b4d5a5cbb308db895c5bfa7adf2.svg",
     "static/media/slider_btn.svg": "/react-antools/static/media/slider_btn.618ada52c4f5a01b8e36f66ce9a63bc6.svg",
     "static/media/slider_btn_active.svg": "/react-antools/static/media/slider_btn_active.893f50a31c61fdf214f0d9d9533f932e.svg",
-    "main.656481b0.css.map": "/react-antools/static/css/main.656481b0.css.map",
+    "main.701e8399.css.map": "/react-antools/static/css/main.701e8399.css.map",
     "main.fb129286.js.map": "/react-antools/static/js/main.fb129286.js.map"
   },
   "entrypoints": [
-    "static/css/main.656481b0.css",
+    "static/css/main.701e8399.css",
     "static/js/main.fb129286.js"
   ]
 }
