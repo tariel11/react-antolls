@@ -1,0 +1,17 @@
+.form{
+  position: relative;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  padding: 8px 12px 8px 45px;
+  max-width: 55rem;
+  margin: 0 auto;
+  background: #283036;
+  border-radius: 15px; 
+  
+  img{
+    position: absolute;
+    top: 50%;
+    left: 2.5rem;
+    transform: translate(-50%, -50%);
+  }
+}

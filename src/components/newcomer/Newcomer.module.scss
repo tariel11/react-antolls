@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.newcomer{
+  padding: 10rem 0 20rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: 500;
+  &_text{
+    h2{
+      font-size: 4.8rem; 
+      color: $text-third; 
+      margin-bottom: 3rem;
+    }
+    p{
+      font-size: 1.8rem;
+      line-height: 3rem;
+      color: $text-gray;
+      margin-bottom: 6rem;
+    }
+  }
+  &_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 10rem;
+  }
+}

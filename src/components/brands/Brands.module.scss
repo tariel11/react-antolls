@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.brands{
+  position: relative;
+  padding: 5.5rem;
+  text-align: center;
+  background: #2c353d33;
+  backdrop-filter: blur(25px); 
+  border-radius: 2.5rem;
+  overflow: hidden;
+  h3{
+    font-weight: 500;
+    font-size: 2.4rem; 
+    color: $text-second;
+    margin-bottom: 6rem;
+  }
+  &_box{
+    display: flex;
+    justify-content: space-between;
+  }
+} 
+.bg{ 
+  position: absolute;
+  top: -86px;
+  left: -84px;
+  width: 159px;
+  height: 159px; 
+  background: #ff484266;
+  filter: blur(50px);  
+}

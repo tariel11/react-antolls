@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.header{ 
+  position: relative;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  .content{
+    h1{
+      font-weight: 500;
+      font-size: 5rem;
+      color: $text-third;
+      margin-bottom: 3rem;
+    }
+    p{
+      font-size: 1.8rem;
+      color: $text-gray;
+      margin-bottom: 6rem;
+    } 
+    form{
+      margin-bottom: 11rem;
+    }
+    .social{ 
+      display: flex;
+      gap: 2rem;
+    }
+  }
+  &_bg {
+  position: absolute;
+  right: -11rem;
+  top: 5.8rem;
+  }
+}

@@ -1,0 +1,54 @@
+@import '../../index.scss';
+
+.slider{
+  position: relative;
+  margin-bottom: 25rem;
+  &_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+    p{
+      position: relative;
+      max-width: 40rem;
+      line-height: 3.0rem; 
+      letter-spacing: 0.015em; 
+      color: $text-fourth;
+      img{
+        position: absolute;
+        top: -5rem;
+        left: -6rem;
+      }
+    }
+  }
+  .points{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    .active{
+      width: 44px;
+      height: 8px; 
+      background: #FF6E30;
+    } 
+    .point{
+      // content: '';
+      display: inline-block;
+      background: #283036;
+      border-radius: 4px;
+      width: 44px;
+      height: 6px;
+    }
+  }
+  .slider_btn_prev{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 0;
+  }
+  .slider_btn_next{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+  }
+}

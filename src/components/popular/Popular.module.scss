@@ -1,0 +1,31 @@
+.popular {
+  padding-top: 20rem;
+  font-weight: 500;
+  margin-bottom: 20rem;
+  text-align: center;
+  h2{ 
+    font-size: 4.8rem;  
+    color: #ffffffe6;
+    margin-bottom: 2.5rem; 
+  }
+  .p{ 
+    font-size: 18px;  
+    color: #ffffff8c;
+    margin-bottom: 11rem; 
+  }
+  &_box{
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 2.4rem;
+    row-gap: 10rem;
+  }
+  .btn{  
+    border: 1px solid #ffffff1a;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    font-size: 20px; 
+    color: #FF6E30;
+    padding: 17px 38px;
+  }
+}

@@ -1,0 +1,38 @@
+@import '../../index.scss';
+
+.footer_wrap{ 
+  border: 0.5px solid #ffffff26;
+  padding: 7rem 0 10rem 0;
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    &_item{
+      h3{
+        font-size: 2rem; 
+        color: $text-third;
+        margin-bottom: 2rem;
+      }
+      li{
+        font-size: 1.6rem; 
+        color: $text-gray;
+        margin-bottom: 1rem;
+      }
+    }
+    &_item_logo{ 
+      h4{
+        font-weight: 500;
+        font-size: 16px;  
+        color: $text-third;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+      }
+      P{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px; 
+        color: $text-gray;
+      }
+    }
+  } 
+} 

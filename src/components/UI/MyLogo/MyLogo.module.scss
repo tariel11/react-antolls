@@ -1,0 +1,12 @@
+@import '../../../index.scss';
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  color: $text-white;
+  strong{
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+}
